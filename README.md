@@ -77,6 +77,6 @@
     ON ProductUserNotification (productId, updatedAt);
     
     </aside>
-    
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/cae9aa97-d63c-4907-a6ce-f8269bd474ba/0188d90a-9162-4049-aded-9816b1b15a32/image.png)
+<img src="https://github.com/user-attachments/assets/4d9b3f32-ea9a-4378-b8cd-de127d8a598b"  width="350" height="100">
+
