@@ -1,6 +1,7 @@
-package com.restock.domain.productNotificationHistory;
+package com.restock.domain;
 
 import com.restock.domain.product.Product;
+import com.restock.domain.productNotificationHistory.ProductNotificationHistory;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -13,7 +14,7 @@ class ProductNotificationHistoryTest {
     private Long userId;
     @BeforeEach
     void setUp() {
-        product = new Product(1L, 1, 5);
+        product = new Product(1L, 1, 5L);
         userId = 5L;
 
     }

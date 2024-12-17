@@ -1,6 +1,5 @@
 package com.restock.infrastructure.productNotificationHistory;
 
-import com.restock.domain.product.Product;
 import com.restock.domain.productNotificationHistory.ProductNotificationHistory;
 import com.restock.domain.productNotificationHistory.ProductNotificationHistoryRepository;
 import lombok.AllArgsConstructor;

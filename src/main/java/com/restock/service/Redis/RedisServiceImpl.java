@@ -7,7 +7,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +22,6 @@ public class RedisServiceImpl implements RedisService {
     public void saveList(Product product, Long userId) { //레디스에 정보저장
         String key = REDIS_KEY_REVIEW + product.getId();
         String userKey = "user:" + userId;
-        System.out.println(userId+"fdsfsdfsdfsd");
 
         Map<String, Object> values = new HashMap<>();
         values.put("restockCount", String.valueOf(product.getRestockCount()));

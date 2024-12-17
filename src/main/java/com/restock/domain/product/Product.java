@@ -23,7 +23,7 @@ public class Product {
     }
 
     public Product add() { //재입고시 수량10개라고 가정
-        return new Product(id,restockCount+1,quantity+10);
+        return new Product(id,restockCount+1,quantity+10L);
     }
     public void decrease(){
         quantity--;
