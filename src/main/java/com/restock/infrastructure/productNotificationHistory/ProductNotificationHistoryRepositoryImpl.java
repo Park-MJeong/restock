@@ -18,7 +18,7 @@ public class ProductNotificationHistoryRepositoryImpl implements ProductNotifica
     public void notiStatus(ProductNotificationHistory history) {
         String status = history.getNotiStatus();
         long productId = history.getProductId();
-        long restockCount = history.getRestockCount();
+        int restockCount = history.getRestockCount();
         long userId = history.getUserId();
         repository.updateNotiStatus(status,productId,restockCount,userId);
     }

@@ -13,5 +13,5 @@ public interface JpaProductNotificationHistoryRepository extends JpaRepository<P
            set pnh.notiStatus = :notistatus,pnh.userId= :userId
            where pnh.productId = :productId and pnh.restockCount = :restockCount
            """)
-    void updateNotiStatus(@Param("notistatus")String notistatus, @Param("productId")Long productId,@Param("restockCount") Long restockCount,@Param("userId") Long userId);
+    void updateNotiStatus(@Param("notistatus")String notistatus, @Param("productId")Long productId,@Param("restockCount") int restockCount,@Param("userId") Long userId);
 }
